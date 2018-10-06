@@ -50,20 +50,74 @@ header{
 .conteudo h3 {
     font-weight: lighter;
     color: white;
-    padding-bottom: 60px;
-    padding-top: 40px;
+    margin-top:  bottom: 40px;
+    margin-bottom: 60px;
+    padding: 50px;
     
         
 }
 
 .conteudo .saibamais{
     color: white;
-    background: red;
-    border-radius: 20px;
-    padding: 12px;
-    
-    
-    
-    
-        
+    background-color: #ed5c57;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-weight: bold;
+    display: inline-block
+            
 }
+
+
+@media (max-width: 500px) {
+    .conteudo {
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+
+    .header-topo {
+        flex-direction: column;
+        
+    }
+
+    .header-topo img {
+        order: 2;
+        
+        
+    }
+
+    .header-topo a  {
+        order: 1
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
