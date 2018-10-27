@@ -90,8 +90,58 @@ header{
         order: 1
 
     }
-
+    
 }
+.link-cartao{
+    height: 300px;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    background: red;
+    margin-bottom: 30px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0px 0px 30px #000000;
+    background-size: cover;
+    background-position: center;   
+    transition: text-shadow 0.2s;
+    transition: all 0.2s;
+    
+}
+.link-cartao:hover{
+    color: white;
+    text-shadow: 0px 0px 10px #000000;
+    text-decoration: none;
+    transition: text-shadow 0.2s;
+    transform:scale(1.1);
+    transition: all 0.2s;
+    opacity: 0.5;
+    
+}
+.link-cartao.sport{
+    background-image: url(imagens/sports.jpg)
+}
+.link-cartao.wellness{
+    background-image: url(imagens/wellness.png)
+}
+.link-cartao.extreme{
+    background-image: url(imagens/extreme-sports.png)
+}
+.link-cartao.games{
+    background-image: url(imagens/games.png)
+}
+.link-cartao.culture{
+    background-image: url(imagens/culture.jpg)
+}
+.link-cartao.enjoyment{
+    background-image: url(imagens/relax.jpg)
+}
+.link-cartao.travelling{
+    background-image: url(imagens/travelling.jpg)
+}
+
 
 
 
